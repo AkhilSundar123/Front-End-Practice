@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Services - Example</title>
+	
+	
+
+</head>
+<body ng-app="myModule">
+<div ng-controller="myController">
+	<table>
+		<tr>
+			<td>Your String</td>
+			<td><input type="text" ng-model="input" /></td>
+		</tr>
+		<tr>
+			<td>Result</td>
+			<td><input type="text" ng-model="output"></input></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="button" ng-click="transfromString(input)" value="Process String"></input></td>
+		</tr>
+	</table>
+</div>
+
+
+<script src="js/angular.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="service/service.js"></script>
+
+
+</body>
+</html>
